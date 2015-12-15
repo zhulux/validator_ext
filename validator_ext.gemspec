@@ -6,7 +6,7 @@ require 'validator_ext/version'
 Gem::Specification.new do |spec|
   spec.name = "validator_ext"
   spec.version = ValidatorExt::VERSION
-  spec.authors = ["zailiang"]
+  spec.authors = ["forkycoin"]
   spec.email = ["forkycoin@gmail.com"]
 
   spec.summary = %q{extension for active_record}

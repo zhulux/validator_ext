@@ -29,8 +29,9 @@ it validates the string with the format `/\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,
 validates :some_telephone, telephone: true
 ```
 it validates the string with the format `/\A(0|86|17951)?[0-9]{11}\z/i`
-
-``
+```ruby
+validates :some_json, json_schema:specified_schema
+```
 And you must require `gem json-schema` in your gemfile before the usage of json_schema_validator,
 ## Development
 
